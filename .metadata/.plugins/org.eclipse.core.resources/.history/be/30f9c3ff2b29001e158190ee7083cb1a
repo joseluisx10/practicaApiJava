@@ -1,0 +1,10 @@
+package com.proyectoapi.servicios;
+
+import javax.ws.rs.Path;
+
+@Path("inicial")
+public class Inicial {
+	public String holaMundo() {
+		return "Hola Mundo!!!";
+	}
+}

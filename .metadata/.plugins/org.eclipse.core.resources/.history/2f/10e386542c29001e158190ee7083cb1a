@@ -1,0 +1,15 @@
+package com.proyectoapi.servicios;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("inicial")
+public class Inicial {
+	
+	@GET //devolver info
+	@Path("holamundo")
+	public String holaMundo() {
+		
+		return "Hola Mundo!!!";
+	}
+}
